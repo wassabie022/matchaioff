@@ -85,16 +85,38 @@
   
   .definitionItem {
     margin-bottom: 10px;
+    color: #CCCCCC;
+    font-size: 15px;
+    line-height: 22px;
   }
   
   .term {
-    color: #FFFFFF;
+    color: #CCCCCC;
     font-weight: 600;
-    font-size: 15px;
   }
   
   .definition {
     color: #CCCCCC;
-    font-size: 15px;
-    line-height: 22px;
+  }
+  
+  .bulletList {
+    list-style-type: disc;
+    margin-left: 2rem;
+    line-height: 1.6;
+    color: #CCCCCC;
+    padding-left: 20px;
+  }
+  
+  .contacts {
+    color: #CCCCCC;
+    line-height: 1.8;
+  }
+  
+  .contacts a {
+    color: #2196F3;
+    text-decoration: none;
+  }
+  
+  .contacts a:hover {
+    text-decoration: underline;
   }
